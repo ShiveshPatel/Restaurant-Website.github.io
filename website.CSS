@@ -1,0 +1,39 @@
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 60%;
+}
+body{
+    font-family: "poppins",sans-serif;
+}
+/*########################### utility classes ##########################*/
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+/*########################## navbar styling ###########################*/
+/* for desktop mode */
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines{
+    display: none;
+} 
+
+.navbar{
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    opacity: 0.85;
+    z-index: 999;
+} 
+/*.navbar{
+    
+}*/
